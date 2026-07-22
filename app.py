@@ -1,5 +1,3 @@
-# app.py
-
 import os
 import gradio as gr
 import joblib
@@ -18,10 +16,10 @@ def predict_diabetes(pregnancies, glucose, insulin, bmi, age):
     else:
         return "Prediction: Low Risk of Diabetes (Negative)"
 
-# --- CODE BLOCK: ADDED FOOTER INFO AND ARTICLE PARAMETER ---
+# --- CODE BLOCK: UPDATED FOOTER INFO AND ARTICLE PARAMETER ---
 developer_info = """
 ### About the Developer
-**Created by:** Chandan Saroj
+**Created by:** Devesh (28240344)
 
 * **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL_HERE)
 * **GitHub:** [Check out my projects](YOUR_GITHUB_URL_HERE)
